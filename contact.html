@@ -1,26 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/contact.css">
   <title>Contact Us</title>
 </head>
+
 <body>
 
-  <h2>Contact Us</h2>
-  
-  <form action="#" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+  <header>
+    <div>
+      <img src="images/logo.jpg" alt="main-logo" class="logo">
+    </div>
+    <nav class="navigation">
+      <div>
+        <ul>
+          <li><a href="index.html" class="nav-buttons">Home</a></li>
+          <li><a href="#" class="nav-buttons">Product</a></li>
+          <li><a href="faq.html" class="nav-buttons">Faq</a></li>
+          <li><a href="contact.html" class="nav-buttons">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+  <main>
+    <section class="contact-us" id="contact-us">
 
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
+      <h1 class="h1-contact">Contact Us</h1>
 
-    <button type="submit">Submit</button>
-  </form>
+      <div class="message-us">
+
+        <h3 class="heading">Send us a message</h3>
+
+        <form action="thanks.html" method="post">
+          <label for="fullname" class="labels">Name</label>
+          <input id="fullname" type="text" name="fullname">
+          <label for="Email" class="labels">Email</label>
+          <input id="Email" type="text">
+          <label class="labels" for="message">Message</label>
+          <textarea id="message"></textarea>
+          <button class="send-button">Send</button>
+        </form>
+
+      </div>
+
+      <div class="location">
+
+        <h3 class="heading">Location</h3>
+
+        <!-- creates div for map -->
+
+        <div class="map">
+
+          <!-- adds embedded map to html -->
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11213.617347712145!2d-75.74009065000001!3d45.36083525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1710201286965!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <img src="images/logo.jpg" alt="main-logo" class="logo-2">
+    </div>
+
+    <div class="social-media-icons">
+      <img src="images/twitter.jpg" alt="this is an twitter logo" class="twitter">
+      <img src="images/facebook.jpg" alt="this is an facebook logo" class="facebook">
+      <img src="images/instagram.jpg" alt="this is an instagram logo" class="instagram">
+    </div>
+
+    <div class="copyright">
+      <p class="copyright-text">Copyright 2024 Bella Onojie.com</p>
+    </div>
+  </footer>
 
 </body>
+
 </html>

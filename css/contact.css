@@ -1,0 +1,243 @@
+/* header and nav*/
+
+html {
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    min-width: 625px;
+}
+
+header {
+    padding: 1rem;
+}
+
+nav {
+    display: none;
+}
+
+.logo {
+    width: 205px;
+    height: auto;
+}
+
+form {
+    display: block;
+}
+
+input,
+textarea {
+    width: 600px;
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+    margin: 0.5rem 0 0.5rem;
+    resize: none;
+}
+
+/* text styles for mobile contact page */
+
+.h1-contact {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 57px;
+    color: #FA4A0C;
+    font-family: "Montserrat", sans-serif;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.labels {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.send-button {
+    border: 0;
+    background-color: #FA4A0C;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.logo-2 {
+    display: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    margin: 60px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    font-weight: 700;
+    color: #5C5C5C;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+iframe {
+    width: 600px;
+    height: 300px;
+}
+
+@media screen and (min-width: 760px) {
+
+    .logo {
+        width: 205px;
+        height: auto;
+    }
+
+    .contact-us {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-row: 1;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        grid-gap: 3em;
+    }
+
+    nav,
+    .navigation form {
+        display: flex;
+        padding: 10px 70px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 70px;
+        gap: 77px;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+    }
+
+    nav ul li {
+        display: inline-flex;
+    }
+
+    .nav-buttons {
+        text-decoration: none;
+        color: black;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        height: 100px;
+        margin: 0.5rem 0 0.5rem;
+        resize: none;
+    }
+
+    /* text styles for contact page */
+
+    .h1-contact {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 57px;
+        font-family: "Montserrat", sans-serif;
+        color: #FA4A0C;
+    }
+
+    .heading {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+        font-family: "Montserrat", sans-serif;
+        color: #252B42;
+    }
+
+    .labels {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .h1-contact {
+        grid-column: 1 / span 6;
+        grid-row: 1;
+        font-size: 2.75em;
+        font-weight: 800;
+        margin: 1.25em 0 0.75em 0;
+    }
+
+    .message-us {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+    }
+
+    .location {
+        grid-column: 4 / span 3;
+        grid-row: 2;
+    }
+
+    iframe {
+        width: 800px;
+        height: 450px;
+    }
+
+    /* css for footer with logo, social media icons, and copyright */
+
+    .logo-2 {
+        width: 185px;
+        height: auto;
+        display: block;
+        align-content: center;
+        margin-right: 20px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 60px;
+    }
+
+    .social-media-icons {
+        margin-right: 10px;
+        align-items: center;
+    }
+
+    .twitter {
+        padding: 0 15px 0 0;
+    }
+
+    .instagram {
+        padding: 0 0 0 20px;
+    }
+
+    .copyright-text {
+        font-size: 14px;
+        font-weight: 700;
+        color: #5C5C5C;
+        line-height: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+}

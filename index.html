@@ -4,96 +4,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link rel="stylesheet" href="css/main.css" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 
+<!-- adds body to html -->
+
 <body>
 
-    <header>
-        <nav class="navigation">
-            <div>
-                <img src="" alt="main-logo" class="logo">
-            </div>
-            <ul>
-                <li><a href="index.html" class="nav-buttons">Home</a></li>
-                <li><a href="#" class="nav-buttons">Product</a></li>
-                <li><a href="#" class="nav-buttons">Faq</a></li>
-                <li><a href="contact.html" class="nav-buttons">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- adds header to html -->
 
-        <div class="main-banner">
-    
-            <div class="main-banner-content">
-                <p>Food app</p>
-                <h1>Why stay hungry when you can order form Bella Onojie</h1>
-                <p>Download the bella onoje’s food app now on</p>
-            </div>
-    
-            <!-- creates playstore and app store buttons for main banner-->
-    
-            <div class="playstore-button">
-                <a href="#">Playstore<i></i></a>
-            </div>
-    
-            <div class="app-store-button">
-                <a href="#">App store<i></i></a>
-            </div>
-    
+    <header>
+
+        <!--adds div with image to nav within html -->
+
+        <div>
+            <img src="images/logo.jpg" alt="main-logo" class="logo">
         </div>
+
+        <!-- adds nav to html with appropriate with divs, classes and html tags -->
+
+        <nav class="navigation">
+
+            <!-- adds unordered list within a div to html which as the main text/content of the navigation -->
+
+            <div>
+                <ul>
+                    <li><a href="index.html" class="nav-buttons">Home</a></li>
+                    <li><a href="#" class="nav-buttons">Product</a></li>
+                    <li><a href="faq.html" class="nav-buttons">Faq</a></li>
+                    <li><a href="contact.html" class="nav-buttons">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main>
 
-        <h2>How the app works</h2>
+        <!-- adds section for the main home page banner -->
 
-        <section class="account">
-
-            <img src="images/account.jpg" alt="image" class="account-image">
-            <p>Create an account</p>
-            <h3>Create/login to an existing account to get started</h3>
-            <p>An account is created with your emailand a desired password</p>
-
-        </section>
-
-        <section class="varieties">
-
-            <img src="images/varieties.jpg" alt="image" class="varieties-image">
-            <p>Explore varieties</p>
-            <h3>Shop for your favorites meal as e dey hot.</h3>
-            <p>Shop for your favorite meals or drinks and enjoy while doing it.</p>
-
-        </section>
-
-        <section class="checkout">
-
-            <img src="images/checkout.jpg" alt="image" class="checkout-image">
-            <p>Checkout</p>
-            <h3>When you done check out and get it delivered.</h3>
-            <p>When you done check out and get it delivered with ease.</p>
-
-        </section>
-
-        <section class="download-now">
-
-            <h3>Download the app now.</h3>
-            <p>Available on your favorite store. Start your premium experience now.</p>
-
-            <div class="playstore-button-2">
-                <a href="#">Playstore<i></i></a>
+        <section class="main-banner">
+            <div class="main-banner-content">
+                <p class="sub-header">Food app</p>
+                <h1 class="main-header">Why stay hungry when you can order from Bella Onojie</h1>
+                <p class="sub-header-2">Download the Bella Onojie’s food app now on</p>
             </div>
 
-            <div class="app-store-button-2">
-                <a href="#">App store<i></i></a>
+            <!-- adds play store and app store buttons for main banner to html -->
+
+            <div class="main-banner-buttons">
+                <button class="playstore">Playstore</button>
+                <button class="app-store">App Store</button>
             </div>
 
+        </section>
+
+        <!-- adds section for two phone image and hr  -->
+
+        <section class="card-1">
+            <div class="appimages">
+                <img src="images/phones.jpg" alt="Two phones with mobile displays" class="phones">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div class="line">
+                    <hr>
+                </div>
+                <h2 class="how-it-works">How the app works</h2>
+                <div class="line-2">
+                    <hr>
+                </div>
+            </div>
+        </section>
+
+        <!-- adds section for instructions to html  -->
+
+        <section class="container">
+
+            <div class="card-2">
+                <div class="account-content">
+                    <h3 class="step-header">Create an account</h3>
+                    <h2 class="step">Create/login to an existing account to get started</h2>
+                    <h4 class="step-description">An account is created with your email and a desired password</h4>
+                </div>
+                <div class="account">
+                    <img src="images/account.jpg" alt="User Account Image" class="account-image">
+                </div>
+            </div>
+
+            <div class="card-3">
+                <div class="varieties-content">
+                    <h3 class="step-header">Explore varieties</h3>
+                    <h2 class="step">Shop for your favorite meal as e dey hot</h2>
+                    <h4 class="step-description">Shop for your favorite meals or drinks and enjoy while doing it.</h4>
+                </div>
+                <div class="varieties">
+                    <img src="images/varieties.jpg" alt="Varieties of Meals Image" class="varieties-image">
+                </div>
+            </div>
+
+            <div class="card-4">
+                <div class="checkout-content">
+                    <h3 class="step-header">Checkout</h3>
+                    <h2 class="step">When you're done, check out and get it delivered</h2>
+                    <h4 class="step-description">When you're done, check out and get it delivered with ease.</h4>
+                </div>
+                <div class="checkout">
+                    <img src="images/checkout.jpg" alt="Checkout Process Image" class="checkout-image">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- adds section for the secondary-banner -->
+
+        <section class="secondary-banner">
+            <div class="download-now">
+                <h2 class="download-now-header">Download the app now.</h2>
+                <h4 class="download-now-text">Available on your favorite store. Start your premium experience now.
+                </h4>
+
+                <div class="secondary-banner-buttons">
+                    <button class="secondary-playstore">Playstore</button>
+                    <button class="secondary-app-store">App Store</button>
+                </div>
+            </div>
         </section>
 
     </main>
 
-    <footer>
+    <!-- adds footer to html -->
 
+    <footer>
+        <div>
+            <img src="images/logo.jpg" alt="main-logo" class="logo-2">
+        </div>
+
+        <div class="social-media-icons">
+            <img src="images/twitter.jpg" alt="this is an twitter logo" class="twitter">
+            <img src="images/facebook.jpg" alt="this is an facebook logo" class="facebook">
+            <img src="images/instagram.jpg" alt="this is an instagram logo" class="instagram">
+        </div>
+
+        <div class="copyright">
+            <p class="copyright-text">Copyright 2024 Bella Onojie.com</p>
+        </div>
     </footer>
 
 </body>
