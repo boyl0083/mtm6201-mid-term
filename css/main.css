@@ -382,28 +382,36 @@ footer {
 
   /* css for content in body */
 
+  .container {
+    padding: 20px;
+  }
+
   .card-2 {
     display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
   }
 
   .account-content {
     flex: 0 0 50%;
     max-width: 50%;
+    text-align: start
   }
 
   .account {
-    flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  .account-image {
+    width: auto;
+    height: 525px;
   }
 
   .card-3 {
     display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    align-items: center;
+    justify-content: center;
   }
 
   .varieties-content {
@@ -412,15 +420,19 @@ footer {
   }
 
   .varieties {
-    flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  .varieties-image {
+      width: auto;
+      height: 525px;
   }
 
   .card-4 {
     display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
   }
 
   .checkout-content {
@@ -429,9 +441,13 @@ footer {
   }
 
   .checkout {
-    flex: 0 0 50%;
     max-width: 50%;
   }
+
+  .checkout-image {
+    width: auto;
+    height: 525px;
+}
 
   /* css text styles for secondary banner  */
 
