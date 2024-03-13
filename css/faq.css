@@ -1,17 +1,85 @@
 body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+/* css for header and nav */
+
+header {
+  padding: 1rem;
+}
+
+nav {
+  display: none;
+}
+
+/* css for main logo */
+
+.logo {
+  width: 205px;
+  height: 100px;
+  top: 50px;
+}
+
+.logo {
+  display: block;
+}
+
+.logo-2 {
+  display: none;
+}
+
+/* css text styles for faq page */
+
+.faq-header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  font-family: "Montserrat", sans-serif;
+  color: #FA4A0C;
+}
+
+.faq-header-2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  font-family: "Montserrat", sans-serif;
+  color: #252B42;
+}
+
+/* css for footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.copyright-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #5C5C5C;
+  line-height: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 760px) {
+
+  body {
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
     padding: 20px;
   }
 
-  /* css for header and nav */
-
   header {
     padding: 1rem;
   }
 
-  nav {
-    display: none;
+  .navigation {
+    display: block;
   }
 
   .logo {
@@ -20,116 +88,65 @@ body {
     top: 50px;
   }
 
-.faq-header {
+  nav,
+  .navigation form {
+    display: flex;
+    padding: 10px 70px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 70px;
+    gap: 77px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+  }
+
+  nav ul li {
+    display: inline-flex;
+  }
+
+  .nav-buttons {
+    text-decoration: none;
+    color: black;
+  }
+
+  .faq-banner {
+    background-image: url(../images/clipart-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 640px;
+    width: 100%;
+    position: relative;
+  }
+
+  .faq-header {
     font-size: 40px;
     font-weight: 700;
     line-height: 57px;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
     color: #FA4A0C;
-}
+  }
 
-.faq-header-2 {
+  .faq-header-2 {
     font-size: 24px;
     font-weight: 500;
     line-height: 38px;
     font-family: "Montserrat", sans-serif;
     color: #252B42;
-}
+    ;
+  }
 
-.logo {
+  .logo {
     display: block;
-}
-
-.logo-2 {
-    display: none;
-  }
-  
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 25px;
-    margin: 60px;
-  }
-  
-  .copyright-text {
-    font-size: 14px;
-    font-weight: 700;
-    color: #5C5C5C;
-    line-height: 18px;
-    font-family: 'Roboto', sans-serif;
   }
 
-@media screen and (min-width: 760px) {
-
-    body {
-        margin: 0 auto;
-        font-family: "Poppins", sans-serif;
-        padding: 20px;
-    }
-
-    header {
-        padding: 1rem;
-    }
-
-    .navigation {
-        display: block;
-    }
-
-    .logo {
-        width: 205px;
-        height: 100px;
-        top: 50px;
-    }
-
-    nav,
-    .navigation form {
-        display: flex;
-        padding: 10px 70px;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px 70px;
-        gap: 77px;
-        position: absolute;
-        right: 50px;
-        top: 50px;
-    }
-
-    nav ul li {
-        display: inline-flex;
-    }
-
-    .nav-buttons {
-        text-decoration: none;
-        color: black;
-    }
-
-    .faq-header {
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 57px;
-        font-family: "Montserrat", sans-serif;
-        color: #FA4A0C;
-    }
-
-    .faq-header-2 {
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 38px;
-        font-family: "Montserrat", sans-serif;
-        color: #252B42;
-    }
-
-    .logo {
-        display: block;
-    }
-
-    /* css for footer */
+  /* css for footer */
 
   .logo-2 {
     width: 185px;
@@ -145,7 +162,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 60px;
   }
 
   .social-media-icons {
@@ -167,6 +183,7 @@ body {
     color: #5C5C5C;
     line-height: 18px;
     font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
   }
 
 }
