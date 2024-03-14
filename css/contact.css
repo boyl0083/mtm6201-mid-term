@@ -1,15 +1,9 @@
-/* header and nav*/
-
-html {
-    margin: 0;
-    padding: 5px;
-}
-
 body {
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    min-width: 625px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
 }
+
+/* header and nav*/
 
 header {
     padding: 1rem;
@@ -20,7 +14,7 @@ nav {
 }
 
 .logo {
-    width: 205px;
+    width: 146px;
     height: auto;
 }
 
@@ -100,6 +94,15 @@ iframe {
 
 @media screen and (min-width: 760px) {
 
+    body {
+        margin: 0 auto;
+        font-family: "Poppins", sans-serif;
+      }
+    
+      header {
+        padding: 1rem;
+      }
+
     .logo {
         width: 205px;
         height: auto;
@@ -112,6 +115,16 @@ iframe {
         padding-left: 5rem;
         padding-right: 5rem;
         grid-gap: 3em;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .logo {
+        width: 205px;
+        height: 100px;
+        align-items: center;
     }
 
     nav,
@@ -196,7 +209,7 @@ iframe {
     }
 
     iframe {
-        width: 800px;
+        width: 100%;
         height: 450px;
     }
 
