@@ -126,6 +126,16 @@ nav {
   font-family: "Montserrat", sans-serif;
 }
 
+.playstore:hover {
+  background-color: #FA4A0C;
+  color: white;
+}
+
+.app-store:hover {
+  background-color: #FA4A0C;
+  color: white;
+}
+
 .button {
   text-decoration: none;
 }
@@ -161,23 +171,19 @@ nav {
 
  /* css for content in body */
 
- .container {
-  padding: 20px;
-}
-
 .account-image {
   width: 500px;
-  height: 500px;
+  height: auto;
 }
 
 .varieties-image {
   width: 500px;
-  height: 500px;
+  height: auto;
 }
 
 .checkout-image {
   width: 500px;
-  height: 500px;
+  height: auto;
 }
 
 /* css for secondary banner */
@@ -193,6 +199,15 @@ nav {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
+}
+
+.download-now-text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #BDBDBD;
 }
 
 /* css for footer */
@@ -343,6 +358,16 @@ footer {
     font-family: "Montserrat", sans-serif;
   }
 
+  .playstore:hover {
+    background-color: #FA4A0C;
+    color: white;
+  }
+  
+  .app-store:hover {
+    background-color: #FA4A0C;
+    color: white;
+  }
+
   .button {
     text-decoration: none;
   }
@@ -354,7 +379,6 @@ footer {
     font-weight: 600;
     line-height: 36px;
     font-family: 'Poppin', sans-serif;
-
   }
 
   /* css for two phone image */
