@@ -75,7 +75,7 @@ nav ul li {
 }
 
 .line {
-  display: none;
+  visibility: hidden;
 }
 
 /* css text styles for mobile page */
@@ -202,9 +202,9 @@ nav ul li {
   height: auto;
 }
 
- /* Applies the animation to the image */
-  
- .account-image {
+/* Applies the animation to the image */
+
+.account-image {
   animation: scaleAnimation 2s ease-in-out infinite;
 }
 
@@ -229,9 +229,9 @@ nav ul li {
   height: auto;
 }
 
- /* Applies the animation to the image */
-  
- .varieties-image {
+/* Applies the animation to the image */
+
+.varieties-image {
   animation: scaleAnimation 2s ease-in-out infinite;
 }
 
@@ -256,9 +256,9 @@ nav ul li {
   height: auto;
 }
 
- /* Applies the animation to the image */
-  
- .checkout-image {
+/* Applies the animation to the image */
+
+.checkout-image {
   animation: scaleAnimation 2s ease-in-out infinite;
 }
 
@@ -293,7 +293,7 @@ nav ul li {
 
 .download-now-header {
   margin: 25px 20px;
-  padding:105px 50px 0 50px;
+  padding: 105px 50px 0 50px;
   font-size: 40px;
   font-weight: 700;
   line-height: 57px;
@@ -427,6 +427,23 @@ footer {
     align-items: center;
     margin: 20px 20px 0 20px;
   }
+
+  /* Applies the animation to the image */
+
+.logo {
+  animation: bounceAnimation 2s ease-in-out infinite;
+}
+
+ /* Defines the animation */
+ 
+@keyframes bounceAnimation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+}
 
   nav ul {
     display: flex;
@@ -583,11 +600,14 @@ footer {
   }
 
   .line {
-    display: block;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    visibility: visible;
   }
 
   .line-2 {
-    display: none;
+    visibility: hidden;
   }
 
   /* css text styles for h2, h3, h4 in body */
@@ -651,7 +671,7 @@ footer {
   }
 
   /* Applies the animation to the image */
-  
+
   .account-image {
     animation: scaleAnimation 2s ease-in-out infinite;
   }
@@ -696,7 +716,7 @@ footer {
   }
 
   /* Applies the animation to the image */
-  
+
   .varieties-image {
     animation: scaleAnimation 2s ease-in-out infinite;
   }
