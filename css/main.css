@@ -202,14 +202,80 @@ nav ul li {
   height: auto;
 }
 
+ /* Applies the animation to the image */
+  
+ .account-image {
+  animation: scaleAnimation 2s ease-in-out infinite;
+}
+
+/* Defines the animation */
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .varieties-image {
   width: 500px;
   height: auto;
 }
 
+ /* Applies the animation to the image */
+  
+ .varieties-image {
+  animation: scaleAnimation 2s ease-in-out infinite;
+}
+
+/* Defines the animation */
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .checkout-image {
   width: 500px;
   height: auto;
+}
+
+ /* Applies the animation to the image */
+  
+ .checkout-image {
+  animation: scaleAnimation 2s ease-in-out infinite;
+}
+
+/* Defines the animation */
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* css for secondary banner */
@@ -502,6 +568,29 @@ footer {
   .account-image {
     width: auto;
     height: 525px;
+    animation: floating 3s infinite;
+  }
+
+  /* Applies the animation to the image */
+  
+  .account-image {
+    animation: scaleAnimation 2s ease-in-out infinite;
+  }
+
+  /* Defines the animation */
+
+  @keyframes scaleAnimation {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 
   .card-3 {
@@ -524,6 +613,29 @@ footer {
   .varieties-image {
     width: auto;
     height: 525px;
+    animation: floating 3s infinite;
+  }
+
+  /* Applies the animation to the image */
+  
+  .varieties-image {
+    animation: scaleAnimation 2s ease-in-out infinite;
+  }
+
+  /* Defines the animation */
+
+  @keyframes scaleAnimation {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 
   .card-4 {
@@ -542,11 +654,34 @@ footer {
 
   .checkout {
     max-width: 50%;
+    animation: hovering 3s infinite;
   }
 
   .checkout-image {
     width: auto;
     height: 525px;
+  }
+
+  /* Applies the animation to the image */
+
+  .checkout-image {
+    animation: scaleAnimation 2s ease-in-out infinite;
+  }
+
+  /* Defines the animation */
+
+  @keyframes scaleAnimation {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 
   /* css text styles for secondary banner  */
