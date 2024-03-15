@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  min-width: 414px;
 }
 
 /* css for header and nav */

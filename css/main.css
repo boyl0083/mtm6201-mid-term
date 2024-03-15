@@ -4,6 +4,8 @@ body {
   min-width: 414px;
 }
 
+/* css for header and nav */
+
 header {
   padding: 1rem;
 }
@@ -12,16 +14,45 @@ nav {
   display: none;
 }
 
+/* css for main logo */
+
 .logo {
-  width: 146px;
+  width: 205px;
+  height: 100px;
+  top: 50px;
+}
+
+.logo {
+  display: block;
+}
+
+.logo-2 {
+  display: none;
+}
+
+/* css style for phone */
+
+.phones {
+  width: 400px;
   height: auto;
 }
 
-.phones {
-  width: 600px;
-  height: auto;
-  position: center;
+/* css text style for how it works header */
+
+.how-it-works {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
 }
+
+.line {
+  display: none;
+}
+
+/* css text styles for mobile page */
 
 .sub-header {
   font-size: 16px;
@@ -49,6 +80,8 @@ nav {
   font-family: "Montserrat", sans-serif;
   color: #737373;
 }
+
+/* css styles for buttons on mobile page */
 
 .main-banner-buttons {
   display: flex;
@@ -97,18 +130,7 @@ nav {
   text-decoration: none;
 }
 
-.how-it-works {
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 36px;
-  font-family: "Montserrat", sans-serif;
-  color: #000000;
-}
-
-.line {
-  display: none;
-}
+/* css for main sections on mobile */
 
 .step-header {
   font-size: 24px;
@@ -137,6 +159,29 @@ nav {
   color: #737373;
 }
 
+ /* css for content in body */
+
+ .container {
+  padding: 20px;
+}
+
+.account-image {
+  width: 500px;
+  height: 500px;
+}
+
+.varieties-image {
+  width: 500px;
+  height: 500px;
+}
+
+.checkout-image {
+  width: 500px;
+  height: 500px;
+}
+
+/* css for secondary banner */
+
 .secondary-banner {
   background-color: #252B42;
 }
@@ -150,9 +195,7 @@ nav {
   color: #ffffff;
 }
 
-.logo-2 {
-  display: none;
-}
+/* css for footer */
 
 footer {
   display: flex;
@@ -381,6 +424,8 @@ footer {
     align-items: center;
     flex-direction: row-reverse;
     justify-content: center;
+    padding: 0 50px;
+    margin: 40px;
   }
 
   .account-content {
@@ -402,6 +447,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 230px;
+    margin: 50px;
   }
 
   .varieties-content {
@@ -423,6 +470,8 @@ footer {
     align-items: center;
     flex-direction: row-reverse;
     justify-content: center;
+    padding: 0 50px;
+    margin: 0 40px;
   }
 
   .checkout-content {
@@ -469,6 +518,10 @@ footer {
     height: 640px;
     width: 100%;
     position: relative;
+  }
+
+  .secondary-banner-content {
+    display: block;
   }
 
   /* css text styles for secondary banner */
