@@ -10,8 +10,34 @@ header {
   padding: 1rem;
 }
 
-nav {
-  display: none;
+.main-logo {
+  align-items: center;
+}
+
+.navigation {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+nav ul a {
+  font-size: 1.2em;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+.nav-buttons:hover {
+  color: #FA4A0C;
+  background-color: transparent;
+}
+
+.nav-buttons {
+  text-decoration: none;
 }
 
 /* css for main logo */
@@ -169,7 +195,7 @@ nav {
   color: #737373;
 }
 
- /* css for content in body */
+/* css for content in body */
 
 .account-image {
   width: 500px;
@@ -245,6 +271,11 @@ footer {
     display: block;
   }
 
+  .nav-buttons:hover {
+    color: #FA4A0C;
+    background-color: transparent;
+  }
+
   .logo {
     width: auto;
     height: 80px;
@@ -260,7 +291,7 @@ footer {
     gap: 77px;
     position: absolute;
     right: 0px;
-    top: 50px;
+    top: 30px;
   }
 
   nav ul li {
@@ -326,6 +357,8 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
   }
 
   .playstore {
@@ -360,11 +393,13 @@ footer {
 
   .playstore:hover {
     background-color: #FA4A0C;
+    border: 2px solid #FA4A0C;
     color: white;
   }
-  
+
   .app-store:hover {
     background-color: #FA4A0C;
+    border: 2px solid #FA4A0C;
     color: white;
   }
 
@@ -385,6 +420,8 @@ footer {
 
   .card-1 {
     height: 550px;
+    position: relative;
+    z-index: 1;
   }
 
   .appimages {
@@ -535,7 +572,7 @@ footer {
   /* css for secondary banner */
 
   .secondary-banner {
-    background-image: url(../images/bagels.jpg);
+    background-image: url(../images/secondary-banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -615,6 +652,18 @@ footer {
     font-weight: 700;
     line-height: 28px;
     font-family: "Montserrat", sans-serif;
+  }
+
+  .secondary-playstore:hover {
+    background-color: #FA4A0C;
+    border: 2px solid #FA4A0C;
+    color: white;
+  }
+
+  .secondary-app-store:hover {
+    background-color: #FA4A0C;
+    border: 2px solid #FA4A0C;
+    color: white;
   }
 
   .button {
