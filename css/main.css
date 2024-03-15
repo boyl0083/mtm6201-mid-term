@@ -188,15 +188,10 @@ footer {
   }
 
   .logo {
-    width: 205px;
-    height: 100px;
+    width: auto;
+    height: 80px;
     align-items: center;
-  }
-
-  nav,
-  .navigation form {
-    display: flex;
-    padding: 10px 70px;
+    margin: 20px 20px 0 20px;
   }
 
   nav ul {
@@ -206,7 +201,7 @@ footer {
     padding: 10px 70px;
     gap: 77px;
     position: absolute;
-    right: 50px;
+    right: 0px;
     top: 50px;
   }
 
@@ -329,7 +324,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 0 48px;
-    transform: translateY(-300px);
+    transform: translateY(-275px);
     padding-bottom: 0;
   }
 
@@ -552,11 +547,11 @@ footer {
   /* css for footer */
 
   .logo-2 {
-    width: 185px;
+    width: 150px;
     height: auto;
     display: block;
     align-content: center;
-    margin-right: 20px;
+    margin: 20px;
   }
 
   footer {

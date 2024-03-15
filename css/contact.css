@@ -93,28 +93,16 @@ iframe {
 }
 
 @media screen and (min-width: 760px) {
-
+    
     body {
         margin: 0 auto;
         font-family: "Poppins", sans-serif;
-      }
-    
-      header {
-        padding: 1rem;
-      }
-
-    .logo {
-        width: 205px;
-        height: auto;
     }
 
-    .contact-us {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-row: 1;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        grid-gap: 3em;
+    /* css for header and nav */
+
+    header {
+        padding: 1rem;
     }
 
     .navigation {
@@ -122,15 +110,10 @@ iframe {
     }
 
     .logo {
-        width: 205px;
-        height: 100px;
+        width: auto;
+        height: 80px;
         align-items: center;
-    }
-
-    nav,
-    .navigation form {
-        display: flex;
-        padding: 10px 70px;
+        margin: 20px 20px 0 20px;
     }
 
     nav ul {
@@ -140,7 +123,7 @@ iframe {
         padding: 10px 70px;
         gap: 77px;
         position: absolute;
-        right: 50px;
+        right: 0px;
         top: 50px;
     }
 
@@ -151,6 +134,15 @@ iframe {
     .nav-buttons {
         text-decoration: none;
         color: black;
+    }
+
+    .contact-us {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-row: 1;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        grid-gap: 3em;
     }
 
     input,
@@ -229,28 +221,28 @@ iframe {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-      }
-    
-      .social-media-icons {
+    }
+
+    .social-media-icons {
         margin-right: 10px;
         align-items: center;
-      }
-    
-      .twitter {
+    }
+
+    .twitter {
         padding: 0 15px 0 0;
-      }
-    
-      .instagram {
+    }
+
+    .instagram {
         padding: 0 0 0 20px;
-      }
-    
-      .copyright-text {
+    }
+
+    .copyright-text {
         font-size: 14px;
         font-weight: 700;
         color: #5C5C5C;
         line-height: 18px;
         font-family: 'Roboto', sans-serif;
         padding-right: 50px;
-      }
+    }
 
 }

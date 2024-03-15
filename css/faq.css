@@ -51,6 +51,7 @@ nav {
 
 .faq-section {
   padding: 15px;
+  margin: 10px;
 }
 
 /* css for footer */
@@ -78,6 +79,8 @@ footer {
     font-family: "Poppins", sans-serif;
   }
 
+  /* css for header and nav */
+
   header {
     padding: 1rem;
   }
@@ -87,15 +90,10 @@ footer {
   }
 
   .logo {
-    width: 205px;
-    height: 100px;
-    top: 50px;
-  }
-
-  nav,
-  .navigation form {
-    display: flex;
-    padding: 10px 70px;
+    width: auto;
+    height: 80px;
+    align-items: center;
+    margin: 20px 20px 0 20px;
   }
 
   nav ul {
@@ -105,7 +103,7 @@ footer {
     padding: 10px 70px;
     gap: 77px;
     position: absolute;
-    right: 50px;
+    right: 0px;
     top: 50px;
   }
 
@@ -156,11 +154,11 @@ footer {
   /* css for footer */
 
   .logo-2 {
-    width: 185px;
+    width: 150px;
     height: auto;
     display: block;
     align-content: center;
-    margin-right: 20px;
+    margin: 20px;
   }
 
   footer {
