@@ -281,25 +281,104 @@ nav ul li {
 /* css for secondary banner */
 
 .secondary-banner {
+  width: auto;
+  height: 564px;
   background-color: #252B42;
 }
 
+.secondary-banner-content {
+  width: 100%;
+  justify-content: center;
+}
+
 .download-now-header {
+  margin: 25px 20px;
+  padding:105px 50px 0 50px;
   font-size: 40px;
   font-weight: 700;
   line-height: 57px;
+  text-align: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
 }
 
 .download-now-text {
+  margin: 0 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   font-size: 24px;
   font-weight: 500;
   line-height: 38px;
+  text-align: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #BDBDBD;
+}
+
+/* css styles for buttons on mobile secondary banner */
+
+.secondary-banner-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  padding-bottom: 20px;
+}
+
+.secondary-playstore {
+  margin-top: 15px;
+  background-color: transparent;
+  box-shadow: 0 5px 0 transparent;
+  outline: none;
+  border: 2px solid white;
+  margin-right: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.secondary-app-store {
+  margin-top: 15px;
+  background-color: transparent;
+  box-shadow: 0 5px 0 transparent;
+  outline: none;
+  border: 2px solid white;
+  margin-right: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.secondary-playstore:hover {
+  background-color: #FA4A0C;
+  border: 2px solid #FA4A0C;
+  color: white;
+}
+
+.secondary-app-store:hover {
+  background-color: #FA4A0C;
+  border: 2px solid #FA4A0C;
+  color: white;
+}
+
+.button {
+  text-decoration: none;
 }
 
 /* css for footer */
